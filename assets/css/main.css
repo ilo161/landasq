@@ -2613,6 +2613,12 @@ input, select, textarea {
 				width: 100%;
 			}
 
+	.center-img{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
 /* List */
 
 	ol {
@@ -2893,6 +2899,10 @@ input, select, textarea {
 	}
 
 /* Split */
+	.flx-center{
+		display: flex;
+		justify-content: space-around;
+	}
 
 	.split {
 		display: -moz-flex;
